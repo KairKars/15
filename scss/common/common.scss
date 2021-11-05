@@ -1,0 +1,30 @@
+*{
+    box-sizing: border-box;
+}
+.container{
+    max-width: $xl;
+    margin: 0 auto;
+}
+@media(max-width: $xl ){
+    .container{
+        width: $lg;
+    }
+}
+
+@media(max-width: $lg){
+    .container{
+        width: $md;
+    }
+}
+
+@media(max-width: $md){
+    .container{
+        width: $ms;
+    }
+}
+
+@media(max-width: $ms){
+    .container{
+        width: 100%;
+    }
+}

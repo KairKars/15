@@ -1,0 +1,33 @@
+.footer{
+   background-color: black;
+   color: $text_help;
+   font-family:$fonts;
+   
+    .footer__wrapper{
+        display: flex;
+        padding: 25px 0;
+        flex-wrap: wrap;
+        justify-content: space-between;
+        align-content: center;
+        .text{
+            width: 50%;
+            padding: 15px 0;
+        }
+        .icon__wrapper{
+            display: flex;
+            justify-content: flex-end;
+            align-content: center;
+            flex-wrap: wrap;
+            width: 50%;
+        }
+        .img__wrapper{
+            width: 10%;
+            padding-left: 10px;
+        }
+            img{
+                max-width: 100%;
+                display: block;
+            }
+    }
+   
+}

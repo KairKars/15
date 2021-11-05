@@ -1,0 +1,30 @@
+header{
+    font-family:$fonts;
+    background-color: $top_bg;
+    padding: 20px 0 100px;
+    nav{
+        background-color: $text_title;
+         }
+
+    ul{
+        margin: 0 auto;
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: center;
+    }
+    li{
+        text-transform: uppercase;
+        list-style: none;
+    }
+    a{
+        padding: 20px;
+        text-decoration: none;
+        color: $text_help;
+        display: inline-block;
+
+        &:hover{
+            background-color: $red;
+            transition: .3s;
+        }
+    }
+}

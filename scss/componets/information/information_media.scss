@@ -1,0 +1,40 @@
+@media(max-width: $xl ){
+    .information__wrapper{
+        width: $lg;
+    }
+}
+
+@media(max-width: $lg){
+    .information__wrapper{
+        width: $md;
+        .information__text{
+            width: 100%;
+            padding: 0 15px 45px;
+            text-align: center;
+        }
+        .information__items{
+            display: flex;
+            flex-wrap: wrap;
+            width: 100%;
+            flex-direction: column;
+            align-content: center;
+            text-align: center;
+            img{
+                margin: 0 auto;
+            }
+        }
+    }
+}
+
+@media(max-width: $md){
+    .information__wrapper{
+        width: $ms;
+
+    }
+}
+
+@media(max-width: $ms){
+    .information__wrapper{
+        width: 100%;
+    }
+}

@@ -1,0 +1,42 @@
+.information{
+    font-family:$fonts;
+    background-color: $bg;
+    padding-top: 100px;
+       
+    .information__wrapper{
+        display: flex;
+        flex-wrap: wrap;
+    }
+    .information__text{
+        width: 50%;
+        max-width: 100%;
+        padding: 0 150px 0 0;
+    }
+    h1{
+        font-size: 40px;
+        color: #585858;
+    }
+    h4{
+        padding: 30px 0 10px;
+    }
+    p{
+        padding-bottom: 50px;
+    }
+    .information__items{
+        display: flex;
+        flex-wrap: wrap;
+        width: 50%;
+    }
+    .items{
+        width: 50%;
+        flex-wrap: wrap;
+        padding: 0 10px 10px;
+    }
+    .button{
+        @extend %but;
+
+        &:hover{
+            @extend %pressing;
+        }
+    }
+}

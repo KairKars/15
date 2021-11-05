@@ -1,0 +1,46 @@
+.recording{
+    font-family:$fonts;
+    background-color: $bg_img;
+
+    .recording__text{
+        text-align: center;
+        padding: 150px 0 65px 0;
+        color: $text_help;
+
+        h3{
+            padding: 0 0 40px 0;
+            text-transform: uppercase;
+            font-size:$title ;
+        }
+        p{
+            font-size: $title__under;
+        }
+    }
+
+    .button{
+        @extend %but;
+
+        &:hover{
+            @extend %pressing;
+        }
+    }
+    .email{
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: center;
+        padding: 0 0 100px 0;
+        label{
+            padding-right: 10px;
+            width: 40%;
+        }        
+        input{
+            padding: 17px 0 15px 10px;
+            text-align: start;;
+            width: 100%;
+            border-radius: 10px;
+            border: none;
+        }
+    }
+    
+      
+}

@@ -1,0 +1,53 @@
+
+// =====tittel-3====//
+%title{
+    text-transform: uppercase;
+    color: $text;
+    font-size: $title;
+}
+%title__text{
+    color: $text;
+    font-size: $title__under;
+    max-width: 550px;
+    padding: 15px 0 10px;
+}
+%underscore{
+    content: "";
+    display: inline-block;
+    width: 150px;
+    margin: 0 auto;
+    height: 2px;
+    background-color: $red;
+}
+
+
+%hover__img{
+    background-color:$bg;
+    transition:$transition;
+    border: 1px solid $text;
+}
+
+%a__decoration{
+    text-decoration: none;
+    list-style: none;
+    font-size:$title__under; 
+    color:$text;
+}
+
+// ====button==== //
+%but{
+    display: inline-block;
+    text-decoration: none;
+    color: $text_help;
+    background-color: $red;
+    padding: 15px 50px;
+    font-size: 15px;
+    border-radius: 10px;
+    border: 2px solid transparent;
+}
+%pressing{
+    background-color: transparent;
+    color: $red;
+    transition: .4s;
+    border: 2px solid $red;
+}

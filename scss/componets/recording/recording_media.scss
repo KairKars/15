@@ -1,0 +1,36 @@
+@media(max-width: $xl ){
+    .recording__wrapper{
+        width: $lg;
+    }
+}
+
+@media(max-width: $lg){
+    .recording__wrapper{
+        width: $md;
+    }
+}
+
+@media(max-width: $md){
+    .recording__wrapper{
+        width: $ms;
+    }
+}
+
+@media(max-width: $ms){
+    .recording__wrapper{
+        width: 100%;
+        .recording__text{
+            h3{
+                font-size: 30px;
+            }
+        }
+        .email{
+            flex-direction: column;
+            align-content: center;
+            label{
+                width: 50%;
+                padding: 0 0 15px 0;
+            }
+        }
+    }
+}

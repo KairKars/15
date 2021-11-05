@@ -1,0 +1,62 @@
+@media(max-width: $xl ){
+    .registration__wrapper{
+        width: $lg;
+    }
+}
+
+@media(max-width: $lg){
+    .registration__wrapper{
+        width: $md;
+    }
+}
+
+@media(max-width: $md){
+    .registration__wrapper{
+        width: $ms;
+    }
+}
+
+@media(max-width: $ms){
+    .registration{
+        .registration__wrapper{
+            width: 100%;
+            flex-direction: column;
+            align-content: center;
+            align-items: center;
+            form{
+                width: 90%;
+            }
+            .inform{
+                width: 100%;
+                align-items: center;
+                align-content: center;
+                margin: 30px 0 0 0;
+                padding: 50px 0 80px 0;
+                background-color: $bg_registration;
+                h4{
+                    padding: 0 0 25px 0;
+                }
+                p{
+                    padding: 15px 0 0 0;
+                }
+            }
+        }
+    }
+    
+    
+}
+
+
+
+@media(max-width: $lg){
+    .registration{
+        .title{
+            width: 100%;
+            text-align: center;
+            padding: 0 15px 70px;
+            .title__under{
+                max-width: 100%;
+            }
+        }
+    }
+}

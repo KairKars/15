@@ -1,0 +1,50 @@
+@media(max-width: $xl ){
+    .footer__wrapper{
+        width: $lg;
+        .img__wrapper{
+            width: 12%;
+        }
+    }
+}
+
+@media(max-width: $lg){
+    .footer{
+        .footer__wrapper{
+            width: $md;
+            .img__wrapper{
+                width: 16%;
+            }
+        }
+    }
+}
+
+@media(max-width: $md){
+    .footer{
+        .footer__wrapper{
+            width: $ms;
+            .icon__wrapper{
+                justify-content: flex-start;
+                .img__wrapper{
+                    width: 25%;
+                }
+                .tex{
+                    p{
+                    padding: 15px 0 15px 10px; 
+                    }
+                }
+            }
+        }
+    }
+}
+
+@media(max-width: $ms){
+    .footer{
+        .footer__wrapper{
+            width: 100%;
+            padding: 0 10px;
+            .text{
+                text-align: center;
+            }
+        }
+    }
+}

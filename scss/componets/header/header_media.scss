@@ -1,0 +1,36 @@
+@media(max-width: $xl ){
+    .container{
+        width: $lg;
+    }
+}
+
+@media(max-width: $lg){
+    .container{
+        width: $md;
+    }
+}
+
+@media(max-width: $md){
+    .container{
+        width: $ms;
+        ul{
+            padding: 0;
+        }
+    }
+}
+
+@media(max-width: $ms){
+    .container{
+        width: 100%;
+        ul{
+            display: flex;
+            text-align: center;
+            li{
+                width: 25%;
+                a{
+                    padding: 20px 0;
+                }
+            }
+        }
+    }
+}
